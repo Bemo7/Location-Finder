@@ -8,7 +8,8 @@ module.exports = {
     'my-place': './src/MyPlace.js',
   },
   output: {
-    filename: '[name].[contenthash].js',
+    // filename: '[name].[contenthash].js',
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist', 'assets', 'scripts'),
     publicPath: 'dist/assets/scripts/'
   },

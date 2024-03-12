@@ -75,7 +75,7 @@ class PlaceFinder {
       console.log('Unable to copy to clipboard!')
       return;
     }
-    // --------LECTURE CODE THAT DID'NT WORK FOR ME--------
+    // --------LEGACY CODE THAT DID'NT WORK FOR ME--------
     // navigator.clipboard
     //   .writeText(shareLinkInputElement.value)
     //   .then((result) => {
